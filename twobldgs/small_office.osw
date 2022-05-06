@@ -1,0 +1,9 @@
+{
+  "seed_file": "small_office.osm",
+  "weather_file": "USA_CO_Denver-Aurora-Buckley.AFB_.724695_TMY3.epw",
+  "run_directory": "./run/",
+  "file_paths": [
+    "./weather/",
+    "./models/"
+  ]
+}
