@@ -5,10 +5,12 @@ description = ""
 authors = ["Anya Petersen <anya.petersen@nrel.gov>"]
 
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = "^3.8"
 # update this after release
 #alfalfa-client = "0.1.0.dev7"
-alfalfa-client = {git = "https://git@github.com/nrel/alfalfa-client.git", rev = "develop"}
+alfalfa-client = {git = "https://git@github.com/nrel/alfalfa-client.git", rev = "job_refactor"}
+alfalfa_openadr = {git = "https://github.com/NREL/alfalfa-openadr.git", rev = "main"}
+
 jupyterlab = "^3.0.17"
 
 [tool.poetry.dev-dependencies]
