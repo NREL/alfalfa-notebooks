@@ -29,8 +29,12 @@ jobs:
         worker-scale: 2
         compose-file-ref: 'remove_worker_container_name'
 
-    - name: Test notebooks
+    - name: Install dependencies
       run: |
         poetry install
+      shell: bash
+
+    - name: Test notebooks
+      run: |
         poetry run pytest --nbmake
       shell: bash
