@@ -5,11 +5,13 @@ description = ""
 authors = ["Anya Petersen <anya.petersen@nrel.gov>"]
 
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = ">=3.7.1,<3.11"
 # update this after release
 #alfalfa-client = "0.1.0.dev7"
-alfalfa-client = "~0.3.1"
+alfalfa-client = "^0.4.0"
 jupyterlab = "^3.0.17"
+nbmake = "^1.3.4"
+pytest = "^7.1.3"
 
 [tool.poetry.dev-dependencies]
 
