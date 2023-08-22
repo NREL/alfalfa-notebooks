@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.1</schema_version>
+  <name>example_ep_measure</name>
+  <uid>4a9caf8d-8aa5-40a1-aac9-09e5c39793ae</uid>
+  <version_id>ebde0c83-ca8c-479c-9294-cfa1f7100b2e</version_id>
+  <version_modified>2023-06-26T14:58:33Z</version_modified>
+  <xml_checksum>B2A99286</xml_checksum>
+  <class_name>ExampleEPMeasure</class_name>
+  <display_name>Example EnergyPlus Measure</display_name>
+  <description>An Example Measure to act as a starting point for a tutorial</description>
+  <modeler_description>An Example Measure to act as a starting point for a tutorial</modeler_description>
+  <arguments />
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Reporting.QAQC</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>EnergyPlusMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Language</name>
+      <value>Ruby</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.6.0</identifier>
+        <min_compatible>3.6.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>A27D9705</checksum>
+    </file>
+  </files>
+</measure>
