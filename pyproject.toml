@@ -7,7 +7,7 @@ authors = ["Anya Petersen <anya.petersen@nrel.gov>"]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 # update this after release
-alfalfa-client = "~0.5.0"
+alfalfa-client = "0.7.0"
 jupyterlab = "^3.0.17"
 
 [tool.poetry.dev-dependencies]
